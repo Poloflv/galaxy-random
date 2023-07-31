@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600&display=swap');
+
+html{
+  box-sizing: border-box;
+}
+
+*{
+  font-family: 'Tektur', cursive;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  
+}
+h1, h2, h3, h4,h5,h6 {
+  margin: 0;
+}

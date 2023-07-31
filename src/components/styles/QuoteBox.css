@@ -1,0 +1,106 @@
+.quoteBox{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    min-width: 300px;
+    place-items: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.title{
+    position: relative;
+    top: 122px;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+.phrase{
+    background:linear-gradient(#FFFFFF,#FFFFFF54) ;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    
+    max-width: 500px;
+}
+
+.bx:active{
+    transform: rotate(360deg);
+    transition: 0.5s;
+
+}
+
+.phrase p{
+    color: #25063F;
+}
+
+.button{
+    margin-top: 2rem;
+    background-color: #FFFFFF;
+    padding: 0.6rem;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    place-items: center;
+    
+    
+}
+
+.button i{
+    font-size: 2rem;
+    color: #706e6e;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    z-index: 900;
+}
+
+.transparent{
+    color: transparent;
+}
+
+
+
+
+.bg1{
+    background: url("/public/espacio/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .bg2{
+    background: url("/public/espacio/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bg3{
+    background: url("/public/espacio/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bg4{
+    background: url("/public/espacio/bg4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+  footer img{
+    display: block;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+  }
+  
+  footer h4{
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+}

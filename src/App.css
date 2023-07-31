@@ -1,0 +1,10 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  place-content:center ;
+  background-position: center;
+}
+
+
+
+
