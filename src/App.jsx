@@ -8,7 +8,7 @@ import QuoteBox from './components/QuoteBox'
 
 
 const listBg = ["bg1","bg2","bg3","bg4"]
-const listBgPlanetas = ["/public/espacio/bgp1.svg","/public/espacio/bgp2.svg","/public/espacio/bgp3.svg","/public/espacio/bgp4.svg"]
+const listBgPlanetas = ["/espacio/bgp1.svg","/espacio/bgp2.svg","/espacio/bgp3.svg","/espacio/bgp4.svg"]
 
 function App() {
   // console.log(getRandom(quotes))
